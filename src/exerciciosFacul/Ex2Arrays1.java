@@ -2,28 +2,28 @@ package exerciciosFacul;
 
 import java.util.Arrays;
 
-public class Arrays1 {
+public class Ex2Arrays1 {
 	public static void main(String[] argumentos) {
 
 		double[] valores = { 1, 2, 3, 4, 5, 6 };
 
-		double[] primeiraC贸pia = valores;
+		double[] primeiraC髉ia = valores;
 
-		double[] segundaC贸pia = valores;
+		double[] segundaC髉ia = valores;
 
-		primeiraC贸pia[1] = 1;
+		primeiraC髉ia[1] = 1;
 
-		segundaC贸pia[2] = valores[0] + primeiraC贸pia[1];
+		segundaC髉ia[2] = valores[0] + primeiraC髉ia[1];
 
-		primeiraC贸pia[3] = valores[1] + segundaC贸pia[2];
+		primeiraC髉ia[3] = valores[1] + segundaC髉ia[2];
 
-		valores[4] = primeiraC贸pia[2] + segundaC贸pia[3];
+		valores[4] = primeiraC髉ia[2] + segundaC髉ia[3];
 
-		valores[5] = segundaC贸pia[3] + primeiraC贸pia[4];
+		valores[5] = segundaC髉ia[3] + primeiraC髉ia[4];
 
 		System.out.println(Arrays.toString(valores));
-		System.out.println(Arrays.toString(primeiraC贸pia));
-		System.out.println(Arrays.toString(segundaC贸pia));
+		System.out.println(Arrays.toString(primeiraC髉ia));
+		System.out.println(Arrays.toString(segundaC髉ia));
 		
 	}
 }

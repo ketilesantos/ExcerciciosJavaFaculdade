@@ -1,4 +1,4 @@
-/*O m√©todo abaixo pode ser um m√©todo da classe ArraysDeFloats (exerc√≠cio 3)? Explique*/
+/*O mÈtodo abaixo pode ser um mÈtodo da classe ArraysDeFloats (exercÌcio 3)? Explique*/
 
 public void mudaTamanho(int novoTamanho)
 
@@ -8,5 +8,5 @@ array.length = novoTamanho;
 
 }
 
-N√£o poderia ser, devido que n√£o √© poss√≠vel modificar o tamanho do array ap√≥s ele ser criado,
+N„o poderia ser, devido que n„o È possÌvel modificar o tamanho do array apÛs ele ser criado,
 somente criando um novo array com o novo tamanho copiar ele com os dados do antigo, sendo que, o novo deve ser maior que antigo.

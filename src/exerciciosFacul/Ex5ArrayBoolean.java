@@ -2,11 +2,11 @@ package exerciciosFacul;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/*Escreva uma aplica√ß√£o em Java que declare e inicialize um vetor de booleanos 
- * (lendo-os do teclado, onde 0 √© falso e qualquer outro valor √© true), 
- * e depois calcule quantos elementos s√£o iguais a true..*/
+/*Escreva uma aplicaÁ„o em Java que declare e inicialize um vetor de booleanos 
+ * (lendo-os do teclado, onde 0 È falso e qualquer outro valor È true), 
+ * e depois calcule quantos elementos s„o iguais a true..*/
 
-public class ArrayBoolean {
+public class Ex5ArrayBoolean {
 	public static void main(String[] args) {
 
 		Scanner entrada = new Scanner(System.in);

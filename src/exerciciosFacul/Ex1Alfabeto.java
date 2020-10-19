@@ -1,14 +1,14 @@
 package exerciciosFacul;
 
 
-public class Alfabeto {
+public class Ex1Alfabeto {
 	public static void main(String[] args) {
 		char[] alfabeto = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I' };
 		int posicao = 4;
 		int indice = posicao - 1;
-		System.out.println("Qual Ã­ndice e valor da posiÃ§Ã£o 4? " + "O valor da posiÃ§Ã£o Ã© " +  alfabeto[3] +
-				" e seu Ã­ndice Ã© " + indice);
-		System.out.println("Quantas posiÃ§Ãµes tem o array? " + "O array tem "+alfabeto.length + " posiÃ§Ãµes.");
+		System.out.println("Qual índice e valor da posição 4? " + "O valor da posição é " +  alfabeto[3] +
+				" e seu índice é " + indice);
+		System.out.println("Quantas posições tem o array? " + "O array tem "+alfabeto.length + " posições.");
 		
 	}
 }
