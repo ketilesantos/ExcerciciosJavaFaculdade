@@ -1,0 +1,12 @@
+/*O método abaixo pode ser um método da classe ArraysDeFloats (exercício 3)? Explique*/
+
+public void mudaTamanho(int novoTamanho)
+
+{
+
+array.length = novoTamanho;
+
+}
+
+Não poderia ser, devido que não é possível modificar o tamanho do array após ele ser criado,
+somente criando um novo array com o novo tamanho copiar ele com os dados do antigo, sendo que, o novo deve ser maior que antigo.
