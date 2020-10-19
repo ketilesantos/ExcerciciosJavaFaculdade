@@ -11,7 +11,7 @@ public class ArrayBoolean {
 
 		Scanner entrada = new Scanner(System.in);
 
-		Boolean[] vetor = new Boolean[3];
+		Boolean[] vetor = new Boolean[10];
 		double valores;
 		int tot = 0;
 		for (int i = 0; i < vetor.length; i++) {
