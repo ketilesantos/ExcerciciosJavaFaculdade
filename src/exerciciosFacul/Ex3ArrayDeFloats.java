@@ -2,7 +2,7 @@ package exerciciosFacul;
 
 import java.util.Arrays;
 
-/*Qual será o conteúdo dos arrays declarados na aplicação abaixo ao término da execução do método main?*/
+/*Qual serÃ¡ o conteÃºdo dos arrays declarados na aplicaÃ§Ã£o abaixo ao tÃ©rmino da execuÃ§Ã£o do mÃ©todo main?*/
 public class ArrayDeFloats {
 	public static void main(String[] argumentos) {
 		float[] constantes = { 100f, 10f, 1f, 0.1f, 0.01f, 0.001f };
@@ -15,8 +15,8 @@ public class ArrayDeFloats {
 	}
 
 	private static void resetaArray(float[] array) {
-		for (int índice = 0; índice < array.length; índice++)
-			array[índice] = 0f;
+		for (int Ã­ndice = 0; Ã­ndice < array.length; Ã­ndice++)
+			array[Ã­ndice] = 0f;
 	}
 	
 }
