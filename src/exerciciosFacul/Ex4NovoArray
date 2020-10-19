@@ -8,5 +8,5 @@ array.length = novoTamanho;
 
 }
 
-Não poderia ser, devido que não é possível modificar o tamanho do array após ele ser criado,
-somente criando um novo array com o novo tamanho copiar ele com os dados do antigo, sendo que, o novo deve ser maior que antigo.
+Não poderia ser, devido que, não é possível modificar o tamanho do array após ele ser criado,
+somente criando um novo array com o novo tamanho e copiar ele com os dados do antigo, sendo que, o novo deve ser maior que antigo.
