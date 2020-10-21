@@ -24,7 +24,7 @@ public class Ex17QuadradoMagico {
 		int primeiraLinha = 0;
 		int primeiraColuna = 0;
 
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < matriz.length; i++) {
 			int totalLinha = 0;
 			int totalColuna = 0;
 			for (int j = 0; j < 3; j++) {
